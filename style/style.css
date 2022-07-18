@@ -87,6 +87,10 @@ body {
     color: var(--action-text-color);
 }
 
+.action {
+    display: inline-flex;
+}
+
 .action:hover,
 .action:focus {
     color: var(--action-text-color);
@@ -103,6 +107,8 @@ body {
 }
 
 .header-link {
+    display: inline-flex;
+    align-items: center;
     text-decoration: none;
     color: var(--main-text-color);
     font-weight: 500;
