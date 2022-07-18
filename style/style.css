@@ -362,7 +362,8 @@ background-color: var(--white-text-color);
     color: currentColor;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     background-color: var(--action-text-color);
     border-radius: 50%;
     color: var(--white-text-color);
@@ -485,13 +486,9 @@ background-color: var(--white-text-color);
     margin-top: 50px;
 }
 
-.clients-list .item {
-
-    outline: 1px solid #AFB1B8;
-    border-radius: 4px;
-}
-
 .clients-link {
+    border-radius: 4px;
+    outline: 1px solid #AFB1B8;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -500,8 +497,10 @@ background-color: var(--white-text-color);
     color: currentColor;
 }
 
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
     color: var(--action-text-color);
+    outline: 1px solid var(--action-text-color);
 }
 
 .clients-list .item+.item {
