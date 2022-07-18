@@ -11,7 +11,8 @@
     --white-text-color: #FFFFFF;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --community-bg-color: #F5F4FA;
-    --background-color: #2F303A;
+    --background-color: #2F303A;   
+    --icon-color: #AFB1B8;
 }
 
 
@@ -359,7 +360,7 @@ background-color: var(--white-text-color);
     height: 44px;
     align-items: center;
     justify-content: center;
-    color: currentColor;
+    color: var(--icon-color);
 }
 
 .social-link:hover,
@@ -494,7 +495,7 @@ background-color: var(--white-text-color);
     justify-content: center;
     width: 170px;
     height: 92px;
-    color: currentColor;
+    color: var(--icon-color);
 }
 
 .clients-link:hover,
